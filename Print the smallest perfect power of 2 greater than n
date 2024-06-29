@@ -1,0 +1,17 @@
+s=int(input())
+n=2
+d=[]
+for i in range(20):
+    n=n*2
+    d.append(n)
+for i in d:
+    if i>s:
+        print(i)
+        break
+
+
+Sample Input :
+48
+
+Sample Output :
+64
